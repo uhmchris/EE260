@@ -1,5 +1,5 @@
 ---
-title: "Module Loops"
+title: "Module Loops TEST"
 published: true
 morea_coming_soon: false
 morea_id: module-loops
