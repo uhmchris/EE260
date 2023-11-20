@@ -1,5 +1,5 @@
 ---
-title: "Ethics in Software Engineering"
+title: "Ethics in Software Engineering TEST"
 published: false
 morea_coming_soon: false
 morea_id: ethics
