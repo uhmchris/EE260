@@ -1,6 +1,6 @@
 ---
-title: "Javascript: Basics"
-published: false
+title: "Javascript: Basics TEST"
+published: true
 morea_coming_soon: false
 morea_id: example-javascript
 morea_prerequisites:
