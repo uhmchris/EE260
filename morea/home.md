@@ -17,7 +17,7 @@ published: true
   See the <a href="https://morea-framework.github.io">Morea Framework Project Site</a> for details.
 </div>
 
-ICS 199 is a four week overview of selected topics in computer science, including Javascript, Open Source Software, and Ethics.
+EE 260  site link - <a href="https://uhmchris.github.io/EE260/modules/"> https://uhmchris.github.io/EE260/modules/</a>
 
 ## Who should take this course
 
