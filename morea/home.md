@@ -7,31 +7,16 @@ published: true
 
 ## Welcome to EE 260, Fall 2023
 
-<div class="alert alert-danger" role="alert" markdown="1">
-
-  <i class="fa-solid fa-circle-exclamation fa-xl"></i> **Warning: this is not a website for a real course.**
-  <hr/>
-  
-  It is actually the "demo" site for the Morea Framework. 
-
-  See the <a href="https://morea-framework.github.io">Morea Framework Project Site</a> for details.
-</div>
 
 EE 260  site link - <a href="https://uhmchris.github.io/EE260/modules/"> https://uhmchris.github.io/EE260/modules/</a>
 
 ## Who should take this course
 
-This course is intended for undergraduates in computer science or computer engineering who have a working knowledge of at least one programming language and who want to get a taste of important topics in the field.
+you!
 
 ## Pedagogy
 
-ICS 199 is structured as a sequential series of [modules](/modules), each taking approximately a week to complete. Each module has the following structure:
 
-  * [Prerequisites](/prerequisites), describing skills you should have prior to starting the module.
-  * [Learning outcomes](/outcomes), describing the major goals for the module.
-  * [Readings and other online resources](/readings), providing background material.
-  * [Experiential learning activities](/experiences), providing a structured set of challenges enabling you to acquire mastery of material.
-  * [Assessments](/assessments), which help you determine if you have acquired mastery of the material.
 
 ## About the instructor
 
