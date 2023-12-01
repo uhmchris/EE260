@@ -2,7 +2,7 @@
 title: "Verilog Syntax"
 published: true
 morea_id: reading-verilog-syntax
-# morea_url: https://drive.google.com/file/d/10eSvShjmEKAKSHx_VMjsfcHhZrO8oEX5/view 
+morea_url: https://drive.google.com/file/d/10eSvShjmEKAKSHx_VMjsfcHhZrO8oEX5/view 
 morea_summary: "Basic syntax in Verilog using Quick Start Guide To Verilog Textbook. Read Chapters 1 and 2"
 morea_type: reading
 morea_sort_order: 2
