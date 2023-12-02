@@ -2,12 +2,11 @@
 title: "ASM Charts"
 published: true
 morea_id: reading-asm-charts
-morea_url: (https://drive.google.com/file/d/1LJWyeFYUa1KHpaJcas1YV1BKros30512/view?usp=sharing)
+morea_url: https://drive.google.com/file/d/1LJWyeFYUa1KHpaJcas1YV1BKros30512/view?usp=sharing
 morea_type: reading
 morea_labels:
 morea_summary: "Summary of how ASM charts work and some examples of Moore and Mealy Machines"
 ---
-
 
 #
 ### Textbook Summary

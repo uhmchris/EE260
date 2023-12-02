@@ -1,5 +1,5 @@
 ---
-title: "asm-charts"
+title: "ASM Charts"
 published: true
 morea_id: outcome-asm-charts
 morea_type: outcome
