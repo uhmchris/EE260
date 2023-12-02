@@ -107,9 +107,9 @@ Using the truth table above, the circuit can be designed using either minterms/C
 
 The following circuit uses minterms/CSOP:
 
-![Minterm_design](min_term_design)
+![Minterm_design](/morea/Min_Max_Terms/min_term_design)
 
 The following circuit uses maxterms/CPOS:
 
-![Maxterm_design](max_term_design)
+![Maxterm_design]/morea/Min_Max_Terms/(max_term_design)
 

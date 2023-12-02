@@ -10,7 +10,7 @@ morea_readings:
 morea_experiences:
 morea_assessments:
   - assessment-logic-gates
-morea_icon_url: logic_gates_logo.jpg
+morea_icon_url: /morea/Logic_Gates/logic_gates_logo.jpg
 morea_type: module
 morea_sort_order: 125
 morea_start_date: "3.1.1"

@@ -33,7 +33,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
 #
 ### Not gate/Inverter
 * Page 46
-* ![Not_gate](Not_gate.jpg)
+* ![Not_gate](/morea/Logic_Gates/Not_gate.jpg)
 * Truth table:
 
     | Input | Output |
@@ -47,7 +47,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
  #
 ### And gate
 * Page 46
-* ![And_gate](And_gate.jpg)
+* ![And_gate](/morea/Logic_Gates/And_gate.jpg)
 * Truth table:
 
     | Input | Output |
@@ -63,7 +63,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
 #
 ### Or gate
 * Page 47
-* ![Or_gate](Or_gate.jpg)
+* ![Or_gate](/morea/Logic_Gates/Or_gate.jpg)
 * Truth table:
 
     | Input | Output |
@@ -80,7 +80,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
 #
 ### Nand gate
 * Page 47
-* ![Nand_gate](Nand_gate.jpg)
+* ![Nand_gate](/morea/Logic_Gates/Nand_gate.jpg)
 
 * Truth table:
 
@@ -96,7 +96,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
 #
 ### Nor gate
 * Page 47-48
-* ![Nor_gate](Nor_gate.jpg)
+* ![Nor_gate](/morea/Logic_Gates/Nor_gate.jpg)
 
 * Truth table:
 
@@ -113,7 +113,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
 #
 ### Xor gate
 * Page 48-49
-* ![Xor_gate](Xor_gate.jpg)
+* ![Xor_gate](/morea/Logic_Gates/Xor_gate.jpg)
 
 * Truth table:
 
@@ -130,7 +130,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
 #
 ### Xnor gate
 * Page 49
-* ![Xnor_gate](Xnor_gate.jpg)
+* ![Xnor_gate](/morea/Logic_Gates/Xnor_gate.jpg)
 
 * Truth table:
 
