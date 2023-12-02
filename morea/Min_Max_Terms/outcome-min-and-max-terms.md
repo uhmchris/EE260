@@ -1,6 +1,6 @@
 ---
 title: "Min and Max Terms"
-published: false
+published: true
 morea_id: outcome-min-and-max-terms
 morea_type: outcome
 morea_sort_order: 10
