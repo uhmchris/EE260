@@ -107,11 +107,9 @@ Using the truth table above, the circuit can be designed using either minterms/C
 
 The following circuit uses minterms/CSOP:
 
-![Minterm_design](https://github.com/tarynlt/Logic-Gates-Truth-Tables-Min-and-Max-Terms/assets/131204960/075ffe05-e5ff-462b-9cf8-c7e50299d534)
-
+![Minterm_design](min_term_design)
 
 The following circuit uses maxterms/CPOS:
 
-![Maxterm_design](https://github.com/tarynlt/Logic-Gates-Truth-Tables-Min-and-Max-Terms/assets/131204960/0a570dbb-b854-439c-ac38-da409df4b8ab)
-
+![Maxterm_design](max_term_design)
 

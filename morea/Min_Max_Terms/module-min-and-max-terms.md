@@ -10,7 +10,7 @@ morea_readings:
 morea_experiences:
 morea_assessments:
   - assessment-min-and-max-terms
-morea_icon_url: min_max.jpg
+morea_icon_url: min_max_logo.jpg
 morea_type: module
 morea_sort_order: 125
 morea_start_date: "4.3.1"

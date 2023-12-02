@@ -33,7 +33,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
 #
 ### Not gate/Inverter
 * Page 46
-* ![Not_gate](https://github.com/tarynlt/Logic-Gates-Truth-Tables-Min-and-Max-Terms/assets/131204960/26794427-8590-46dd-a203-3776950671bb)
+* ![Not_gate](Not_gate.jpg)
 * Truth table:
 
     | Input | Output |
@@ -47,8 +47,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
  #
 ### And gate
 * Page 46
-* ![And_gate](https://github.com/tarynlt/Logic-Gates-Truth-Tables-Min-and-Max-Terms/assets/131204960/275011a2-0b3e-4883-9d1b-f6161a8de422)
-
+* ![And_gate](And_gate.jpg)
 * Truth table:
 
     | Input | Output |
@@ -64,8 +63,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
 #
 ### Or gate
 * Page 47
-* ![Or_gate](https://github.com/tarynlt/Logic-Gates-Truth-Tables-Min-and-Max-Terms/assets/131204960/c639bc22-9e4d-4b04-b39a-ee08efe42006)
-
+* ![Or_gate](Or_gate.jpg)
 * Truth table:
 
     | Input | Output |
@@ -82,7 +80,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
 #
 ### Nand gate
 * Page 47
-* ![Nand_gate](https://github.com/tarynlt/Logic-Gates-Truth-Tables-Min-and-Max-Terms/assets/131204960/2e3e354d-9b5c-49bb-9395-2809177d09b8)
+* ![Nand_gate](Nand_gate.jpg)
 
 * Truth table:
 
@@ -98,7 +96,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
 #
 ### Nor gate
 * Page 47-48
-* ![Nor_gate](https://github.com/tarynlt/Logic-Gates-Truth-Tables-Min-and-Max-Terms/assets/131204960/347af3a3-7375-43b7-a360-779b8d111b57)
+* ![Nor_gate](Nor_gate.jpg)
 
 * Truth table:
 
@@ -115,7 +113,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
 #
 ### Xor gate
 * Page 48-49
-* ![Xor_gate](https://github.com/tarynlt/Logic-Gates-Truth-Tables-Min-and-Max-Terms/assets/131204960/80c973f7-5ee9-4713-b0e4-7c9c4fa7d21a)
+* ![Xor_gate](Xor_gate.jpg)
 
 * Truth table:
 
@@ -132,7 +130,7 @@ The logic gates covered in this summary are Not, And, Or, Nand, Nor, Xor, and Xn
 #
 ### Xnor gate
 * Page 49
-* ![Xnor_gate](https://github.com/tarynlt/Logic-Gates-Truth-Tables-Min-and-Max-Terms/assets/131204960/e0625417-ad43-4b38-93db-ae4175a10027)
+* ![Xnor_gate](Xnor_gate.jpg)
 
 * Truth table:
 
