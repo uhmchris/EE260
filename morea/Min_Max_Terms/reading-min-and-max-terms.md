@@ -1,7 +1,7 @@
 ---
 title: "Min and Max Terms Reading"
 published: true
-morea_id: r outcome-min-and-max-terms
+morea_id: reading-min-and-max-terms
 morea_url: -[Minterms_and_Maxterms](https://drive.google.com/file/d/13ykVfLJ93eI178MYQBgNGcVIeeTTjnOO/view?usp=sharing)
 morea_summary: "In order to create a circuit schematic from a truth table, a _canonical sum of products (CSOP)_ can be used based on minterms. A minterm can be written at every index but we only care about the minterms when the output is High. To write the minterms of a function, look at the inputs and see what needs to be done to the inputs so the minterm output is High when the inputs are all And-ed together. After doing this at each index, Or all the And gate outputs together to get the output function. To write in a more compact way, a _minterm list_ can be used. Use the “Σ” symbol to denote a minterm list, subscript the input variables, and put the indices of when the output function is High. Another way to create a circuit schematic from a truth table is to use a _canonical product of sums (CPOS)_  and maxterms. A maxterm can be written at every index but we only care about the maxterms when the output is Low. To write the maxterms of a function, look at the inputs and see what needs to be done to the inputs so the maxterm output is Low when the inputs are all Or-ed together. After doing this at each index, And all the Or gate outputs together to get the output function. To write in a more compact way, a _maxterm list_ can be used. Use the “Π” symbol to denote a maxterm list, subscript the input variables, and put the indices of when the output function is Low. For more information, see pages 115 - 121."
 morea_type: reading

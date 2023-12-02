@@ -4,7 +4,7 @@ published: true
 morea_coming_soon: false
 morea_id: Logic_Gates
 morea_outcomes:
-  - outcome-Logic-Gates
+  - outcome-logic-gates
 morea_readings:
   - reading-logic-gates
 morea_experiences:
