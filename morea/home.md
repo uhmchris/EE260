@@ -27,4 +27,4 @@ Using real-world scenarios and problem-solving activities
 
 ## About the instructor
 
-[Chris Manloloyo](https://github.com/uhmchris) is a Professor of Electrical Engineering at the University of Hawaii.
+[Chris Manloloyo](https://github.com/uhmchris) Department of Electrical Engineering at the University of Hawaii.
