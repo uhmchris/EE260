@@ -8,7 +8,6 @@ morea_outcomes:
 morea_readings:
   - reading-logic-gates
 morea_experiences:
-  - experience-logic-gates
 morea_assessments:
   - assessment-logic-gates
 morea_icon_url: https://github.com/tarynlt/Logic-Gates-Truth-Tables-Min-and-Max-Terms/assets/131204960/275011a2-0b3e-4883-9d1b-f6161a8de422

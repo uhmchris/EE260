@@ -1,6 +1,6 @@
 ---
 title: "Logic Gates"
-published: false
+published: true
 morea_id: outcome-logic-gates
 morea_type: outcome
 morea_sort_order: 10

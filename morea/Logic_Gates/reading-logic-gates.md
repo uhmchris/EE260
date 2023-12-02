@@ -1,6 +1,6 @@
 ---
 title: "Logic Gates Reading"
-published: false
+published: true
 morea_id: r outcome-logic-gates
 morea_url:
   -[NOT, AND, OR Gates](https://drive.google.com/file/d/1LCGSKg_Z8hj4HYrpz02kCZ70Hn7khwEs/view?usp=sharing)
