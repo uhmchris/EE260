@@ -2,7 +2,7 @@
 title: "min-and-max-terms"
 published: true
 morea_coming_soon: false
-morea_id: min-and-max-terms
+morea_id: Min_Max_Terms
 morea_outcomes:
   - outcome-min-and-max-terms
 morea_readings:

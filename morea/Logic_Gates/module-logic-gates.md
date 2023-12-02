@@ -1,5 +1,5 @@
 ---
-title: "logic-gates"
+title: "Logic Gates"
 published: true
 morea_coming_soon: false
 morea_id: Logic_Gates

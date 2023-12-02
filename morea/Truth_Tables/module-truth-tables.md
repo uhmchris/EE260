@@ -1,8 +1,8 @@
 ---
-title: "truth tables"
+title: "Truth Tables"
 published: true
 morea_coming_soon: false
-morea_id: truth-tables
+morea_id: Truth-Tables
 morea_outcomes:
   - outcome-truth-tables
 morea_readings:
