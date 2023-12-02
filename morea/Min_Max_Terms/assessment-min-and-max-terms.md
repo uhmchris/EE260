@@ -1,6 +1,6 @@
 ---
 title: "Min and max terms"
-published: false
+published: true
 morea_id: assessment-min-and-max-terms
 morea_summary: "CHANGE ME"
 morea_outcomes_assessed:
