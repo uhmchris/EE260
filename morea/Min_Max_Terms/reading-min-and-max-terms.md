@@ -9,7 +9,7 @@ morea_labels:
   - <reading 10>
 ---
 
-"[Min and Max Terms Video]https://drive.google.com/file/d/13ykVfLJ93eI178MYQBgNGcVIeeTTjnOO/view?usp=sharing)" 
+![Min and Max Terms Video]https://drive.google.com/file/d/13ykVfLJ93eI178MYQBgNGcVIeeTTjnOO/view?usp=sharing) 
 
 ### Topics covered
 
@@ -107,9 +107,9 @@ _Example truth table from above with both Min and Max terms on same table:_
 Using the truth table above, the circuit can be designed using either minterms/CSOP or maxterms/CPOS. Link to Falstad with both minterm and maxterm circuits: [https://tinyurl.com/ymdlzsk7]
 
 The following circuit uses minterms/CSOP:
-![Minterm_design](/morea/Min_Max_Terms/min_term_design)
+![Minterm_design](/morea/Min_Max_Terms/min_term_design.jpg)
 
 The following circuit uses maxterms/CPOS:
 
-![Maxterm_design]/morea/Min_Max_Terms/(max_term_design)
+![Maxterm_design]/morea/Min_Max_Terms/(max_term_design.jpg)
 
