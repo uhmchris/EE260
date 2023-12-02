@@ -1,6 +1,6 @@
 ---
 title: "Truth Tables Reading"
-published: false
+published: true
 morea_id: reading-truth-tables
 morea_url: -[Truth_Tables](https://drive.google.com/file/d/1-dkOuaJmtceTfKMli0C3BBkvVauJGEUS/view?usp=sharing)
 morea_summary: "A truth table shows every possible input-output combination of a given function. If a logic circuit has n-number of inputs, there will be 2n possible inputs. The typical truth table is a canonical truth table, a truth table in which the binary code inputs are in ascending order. The output(s) of a truth table depends on the circuit; in general, 1 is High and 0 is Low."

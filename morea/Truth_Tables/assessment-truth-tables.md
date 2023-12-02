@@ -1,6 +1,6 @@
 ---
 title: "Truth Tables"
-published: false
+published: true
 morea_id: assessment-truth-tables
 morea_summary: "CHANGE ME"
 morea_outcomes_assessed:
