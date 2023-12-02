@@ -1,6 +1,6 @@
 ---
 title: "Truth Tables"
-published: false
+published: true
 morea_id: outcome-truth-tables
 morea_type: outcome
 morea_sort_order: 10
