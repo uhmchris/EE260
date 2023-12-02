@@ -1,6 +1,6 @@
 ---
 title: "Logic Gates"
-published: false
+published: true
 morea_id: assessment-logic-gates
 morea_summary: "CHANGE ME"
 morea_outcomes_assessed:
