@@ -10,7 +10,7 @@ morea_labels:
 ---
 
 Min and Max Terms Video:
-{% https://drive.google.com/file/d/13ykVfLJ93eI178MYQBgNGcVIeeTTjnOO/view?usp=sharing %} 
+{% id=https://drive.google.com/file/d/13ykVfLJ93eI178MYQBgNGcVIeeTTjnOO/view?usp=sharing %} 
 
 ### Topics covered
 
