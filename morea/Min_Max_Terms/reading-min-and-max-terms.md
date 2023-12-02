@@ -9,7 +9,8 @@ morea_labels:
   - <reading 10>
 ---
 
-![Min and Max Terms Video]https://drive.google.com/file/d/13ykVfLJ93eI178MYQBgNGcVIeeTTjnOO/view?usp=sharing) 
+Min and Max Terms Video:
+{% https://drive.google.com/file/d/13ykVfLJ93eI178MYQBgNGcVIeeTTjnOO/view?usp=sharing %} 
 
 ### Topics covered
 
