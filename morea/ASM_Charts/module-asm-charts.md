@@ -9,7 +9,6 @@ morea_outcomes:
 morea_readings:
   - reading-asm-charts
 morea_experiences:
-  - experience-asm-charts
 morea_assessments:
   - assessment-asm-charts
 morea_type: module
