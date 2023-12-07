@@ -10,7 +10,7 @@ morea_readings:
 morea_experiences:
 morea_assessments:
   - assessment-truth-tables
-morea_icon_url: truth_table.jpg
+morea_icon_url: morea/Truth_Tables/truth_table.jpg
 morea_type: module
 morea_sort_order: 125
 morea_start_date: "4.2.1"
