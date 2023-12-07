@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> EE260-Fall23 | Min and Max Terms Reading </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="/EE260/css/themes/spacelab/bootstrap.min.css">
+  <link rel="stylesheet" href="/EE260/css/style.css">
+  <link rel="stylesheet" href="/EE260/css/syntax.css">
+  <link rel="shortcut icon" href="/EE260/favicon.ico" type="image/x-icon" />
+  <script src="https://kit.fontawesome.com/020726ec0d.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+
+  
+
+  <!-- Load JQuery, then use it to attach the class 'active' to navbar item currently displayed. -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>
+    $(window).on('load', function () {
+      $('.nav-item').find('a[href="' + location.pathname + '"]').addClass('active');
+    });
+  </script>
+
+</head>
+<body>
+
+<div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="/EE260/index.html"> EE260-Fall23 </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav">
+        
+        <li class="nav-item"><a class="nav-link" href="/EE260/prerequisites/">Prerequisites</a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/EE260/modules/">Modules</a></li>
+        
+        <li class="nav-item"><a class="nav-link" href="/EE260/outcomes/">Outcomes</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/EE260/readings/">Readings</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/EE260/experiences/">Experiences</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/EE260/assessments/">Assessments</a></li>
+        
+        
+        <li class="nav-item"><a class="nav-link" href="/EE260/schedule/">Schedule</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Internal fragment for displaying the breadcrumb bar -->
+<div class="breadcrumb-background" style="padding-top: 1em; padding-bottom: .01em">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        
+        <li class="breadcrumb-item"><a href="/EE260/">Home</a></li>
+        <li class="breadcrumb-item"><a href="/EE260/modules">Modules</a></li>
+        <li class="breadcrumb-item"><a href="/EE260/modules/Min_Max_Terms">Min Max Terms</a></li>
+        <li class="breadcrumb-item active">Min and Max Terms Reading</li>
+      </ol>
+    </nav>
+  </div>
+</div>
+
+
+<div class="container">
+  <p>Min and Max Terms Video:</p>
+
+<h3 id="topics-covered">Topics covered</h3>
+
+<ul>
+  <li>Textbook summary</li>
+  <li>Minterms</li>
+  <li>Maxterms</li>
+  <li>Minterm vs Maxterm</li>
+</ul>
+
+<p>#</p>
+<h3 id="textbook-summary">Textbook summary</h3>
+
+<ul>
+  <li>Minterms
+    <ul>
+      <li>In order to create a circuit schematic from a truth table, a <em>canonical sum of products (CSOP)</em> can be used based on minterms. A minterm can be written at every index but we only care about the minterms when the output is High. To write the minterms of a function, look at the inputs and see what needs to be done to the inputs so the minterm output is High when the inputs are all And-ed together. After doing this at each index, Or all the And gate outputs together to get the output function. To write in a more compact way, a <em>minterm list</em> can be used. Use the “Σ” symbol to denote a minterm list, subscript the input variables, and put the indices of when the output function is High. For more information, see pages 115 - 118.</li>
+    </ul>
+  </li>
+  <li>Maxterms
+    <ul>
+      <li>Another way to create a circuit schematic from a truth table is to use a <em>canonical product of sums (CPOS)</em>  and maxterms. A maxterm can be written at every index but we only care about the maxterms when the output is Low. To write the maxterms of a function, look at the inputs and see what needs to be done to the inputs so the maxterm output is Low when the inputs are all Or-ed together. After doing this at each index, And all the Or gate outputs together to get the output function. To write in a more compact way, a <em>maxterm list</em> can be used. Use the “Π” symbol to denote a maxterm list, subscript the input variables, and put the indices of when the output function is Low. For more information, see pages 118 - 121.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>#</p>
+<h3 id="minterms">Minterms</h3>
+
+<p>Example Truth Table with Minterms:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Index</th>
+      <th>Input</th>
+      <th>Output</th>
+      <th>Minterm</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>ABC</td>
+      <td>F</td>
+      <td>m</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>000</td>
+      <td>0</td>
+      <td>A’B’C’</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>001</td>
+      <td>0</td>
+      <td>A’B’C</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>010</td>
+      <td>1</td>
+      <td>A’BC’</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>011</td>
+      <td>1</td>
+      <td>A’BC</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>100</td>
+      <td>0</td>
+      <td>AB’C’</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>101</td>
+      <td>1</td>
+      <td>AB’C</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>110</td>
+      <td>0</td>
+      <td>ABC’</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>111</td>
+      <td>1</td>
+      <td>ABC</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Above is a truth table with all minterms for all indices written out. Notice that when an input is 0, the input variable for the minterm is negated. This is due to how the And gate works: an And gate only outputs a High when all inputs are also High. However, for designing a circuit from the truth table, we only care about the minterms where the output “F” is equal High. Therefore, only the minterms in index 2, 3, 5, and 7 will be used to design the circuit. This can be written out the following way:</p>
+
+<p>General way: Σ<sub>m</sub>(index numbers) = corresponding minterms</p>
+
+<p>Specific example: Σ<sub>m</sub>(2, 3, 5, 7) = A’BC’ + A’BC + AB’C + ABC</p>
+
+<p>Note that the function is all the sums being added together. This is the reasoning for why Minterms are called Sum of Products. The unsimplification of these is the reason for it being called the canonical sum of products or CSOP.</p>
+
+<p>To create the design for this, there will be three inputs, one Not gate per input, four 3-input And gates, and one 4-input Or gate.</p>
+
+<p>#</p>
+<h3 id="maxterms">Maxterms</h3>
+
+<p>Example Truth Table with Maxterms:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Index</th>
+      <th>Input</th>
+      <th>Output</th>
+      <th>Maxterm</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>ABC</td>
+      <td>F</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>000</td>
+      <td>0</td>
+      <td>A+B+C</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>001</td>
+      <td>0</td>
+      <td>A+B+C’</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>010</td>
+      <td>1</td>
+      <td>A+B’+C</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>011</td>
+      <td>1</td>
+      <td>A+B’+C’</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>100</td>
+      <td>0</td>
+      <td>A’+B+C</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>101</td>
+      <td>1</td>
+      <td>A’+B+C’</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>110</td>
+      <td>0</td>
+      <td>A’+B’+C</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>111</td>
+      <td>1</td>
+      <td>A’+B’+C’</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Above is a truth table with all maxterms for all indices written out. Notice that when an input is 1, the input variable for the maxterm is negated. This is due to how the Or gate works: an Or gate only outputs a Low when all inputs are also Low. However, for designing a circuit from the truth table, we only care about the maxterms where the output “F” is equals Low. Therefore, only the maxterms in index 0, 1, 4, and 6 will be used to design the circuit. This can be written out the following way:</p>
+
+<p>General way: Π<sub>M</sub>(index numbers) = corresponding maxterms</p>
+
+<p>Specific example: Π<sub>M</sub>(0, 1, 4, 6) = (A+B+C)(A+B+C’)(A’+B+C)(A’+B’+C)</p>
+
+<p>Note that the function is all the sums being multiplied together. This is the reasoning for why Maxterms are called Product of Sums. The unsimplification of these is the reason for it being called the canonical product of sums or CPOS.</p>
+
+<p>To create the design for this, there will be three inputs, one Not gate per input, four 3-input Or gates, and one 4-input And gate.</p>
+
+<p>#</p>
+<h3 id="minterm-vs-maxterm">Minterm vs Maxterm</h3>
+
+<p>Both minterms and maxterms can be used to create a circuit simulation however, the simpler the circuit, the better. Therefore, usually the option with fewer gates is used. No matter if you use minterms/CSOP or maxterms/CPOS, the output function should be the same.</p>
+
+<p><em>Example truth table from above with both Min and Max terms on same table:</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Index</th>
+      <th>Input</th>
+      <th>Output</th>
+      <th>Minterm</th>
+      <th>Maxterm</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>ABC</td>
+      <td>F</td>
+      <td>m</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>000</td>
+      <td>0</td>
+      <td> </td>
+      <td>A+B+C</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>001</td>
+      <td>0</td>
+      <td> </td>
+      <td>A+B+C’</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>010</td>
+      <td>1</td>
+      <td>A’BC’</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>011</td>
+      <td>1</td>
+      <td>A’BC</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>100</td>
+      <td>0</td>
+      <td> </td>
+      <td>A’+B+C</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>101</td>
+      <td>1</td>
+      <td>AB’C</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>110</td>
+      <td>0</td>
+      <td> </td>
+      <td>A’+B’+C</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>111</td>
+      <td>1</td>
+      <td>ABC</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Using the truth table above, the circuit can be designed using either minterms/CSOP or maxterms/CPOS. Link to Falstad with both minterm and maxterm circuits: [https://tinyurl.com/ymdlzsk7]</p>
+
+<p>The following circuit uses minterms/CSOP:
+<img src="/morea/Min_Max_Terms/min_term_design.jpg" alt="Minterm Design" /></p>
+
+<p>The following circuit uses maxterms/CPOS:</p>
+
+<p><img src="/morea/Min_Max_Terms/max_term_design.jpg" alt="Maxterm Design" /></p>
+
+
+</div>
+
+
+
+
+<!-- Maybe find a different way?
+<script src="/EE260/js/scrollIfAnchor.js"></script>
+-->
+
+<footer class="footer footer-background" style="padding-top: 1em; padding-bottom: 1em">
+  <div class="container text-center">
+    
+    <p>Chris Manloloyo | Electrical Engineering | University of Hawaii <br />
+manloloy@hawaii.edu<br /></p>
+
+
+    
+    <p style="margin: 0">Powered by the <a class="footer-link" href="https://morea-framework.github.io/">Morea Framework</a> (Theme: spacelab)<br>
+      Last update on: <span>2023-12-07 13:20:22 -1000</span></p>
+
+    <p style="margin: 0">
+      
+      1 prerequisites |
+      
+      5 modules
+      
+      | 5 outcomes
+      
+      
+      | 6 readings
+      
+      
+      | 2 experiences
+      
+      
+      | 6 assessments
+      
+    </p>
+  </div>
+</footer>
+
+
+<!-- Load Bootstrap JavaScript components -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+<!-- Add anchors to pages. -->
+<script>anchors.add();</script>
+
+
+</body>
+</html>
